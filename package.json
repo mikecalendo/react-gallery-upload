@@ -1,0 +1,25 @@
+{
+  "name": "react-images-upload-poc",
+  "version": "1.0.0",
+  "description": "A proof of concept for: https://github.com/JakeHartnell/react-images-upload",
+  "keywords": ["upload", "react"],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-images-upload": "1.2.7",
+    "react-scripts": "5.0.0",
+    "json-encrypt": "2.1.1",
+    "simple-encryptor": "4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "4.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
